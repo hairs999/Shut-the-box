@@ -2,6 +2,7 @@
 Probability of winning a game of shut the box
 
 I've seen this game on tiktok called shut the box and I've been curious for ages about the probability of winning a game. 
+The rules can be found on: https://www.mastersofgames.com/rules/shut-box-rules.htm
 This code specifically uses randomness, with no strategy involved. To extend the code, one could consider prioritising getting rid of random numbers first. 
 Another extension could be to wait as long as possible to get rid of certain numbers. 
 
