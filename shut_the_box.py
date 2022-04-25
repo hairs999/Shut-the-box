@@ -36,14 +36,14 @@ def shut_the_box():
             number_of_dice=1
     return True
 
-def probability_of_winning(number_of_games):
+def probability_of_winning(number_of_games, game):
     truth=0
     for i in range(number_of_games):
-        if shut_the_box()==True:
+        if game()==True:
             truth+=1
     return truth/number_of_games*100
 
 if __name__=='__main__':
     number_of_games=100000
-    print(probability_of_winning(number_of_games), '%')
+    print(probability_of_winning(number_of_games, shut_the_box), '%')
         
